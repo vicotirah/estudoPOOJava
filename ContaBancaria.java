@@ -14,7 +14,7 @@ public class ContaBancaria {
         return saldo;
     }
 
-    void setSaldo(double valor) {
+    protected void setSaldo(double valor) {
         this.saldo = valor;
 
     }
@@ -24,7 +24,7 @@ public class ContaBancaria {
         return limite;
     }
 
-    void setLimite(double valor) {
+    protected void setLimite(double valor) {
         this.limite = valor;
     }
 
